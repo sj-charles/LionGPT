@@ -84,7 +84,7 @@ const handleSubmit = async (e) => {
 
   // fetch the data from sesrver
 
-  const response = await fetch('http://localhost:5000', {
+  const response = await fetch('https://liongpt.onrender.com', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
